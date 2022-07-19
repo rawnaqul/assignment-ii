@@ -18,6 +18,10 @@ a {
     color: darkslategrey;
 }
 
+aside {
+    float: left;
+}
+
 .button-i {
     background-color: rgb(255, 166, 0);
     border: 0;
@@ -58,6 +62,7 @@ h1 {
     background-color: rgb(26, 53, 53);
     padding: 15px 15px;
     border-radius: 12px;
+    margin-right: 25px;
 }
 
 
@@ -65,4 +70,35 @@ h1 {
     padding: 8px 15px;
     border-radius: 12px;
     margin: 5px;
+}
+
+.blog-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.blog-card {
+    color: rgb(26, 53, 53);
+    background-color: rgba(250, 235, 215, 0.644);
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px rgba(128, 128, 128, 0.377);
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.blog-info {
+    padding: 10px;
+}
+
+.blog-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mini-info {
+    margin: 0;
 }
