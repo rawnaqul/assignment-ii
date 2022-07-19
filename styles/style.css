@@ -1,0 +1,51 @@
+/* All Conmmon Styles */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    max-width: 1380px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: darkslategrey;
+}
+
+.button-i {
+    background-color: rgb(255, 166, 0);
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 2.8em;
+}
+
+/* hero section styles */
+.hero-section {
+    background-color: rgb(26, 53, 53);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-box {
+    color: aliceblue;
+    width: 50%;
+}
+
+/* section ii */
