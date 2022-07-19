@@ -72,6 +72,10 @@ hr {
     width: 50%;
 }
 
+.button-i:hover {
+    background-color: rgb(247, 202, 119);
+}
+
 /* section ii */
 
 .side-nav {
@@ -90,6 +94,10 @@ hr {
     padding: 8px 15px;
     border-radius: 12px;
     margin: 5px;
+}
+
+.button-ii:hover {
+    background-color: rgb(255, 166, 0);
 }
 
 .blog-gallery {
@@ -121,6 +129,36 @@ hr {
 
 .mini-info {
     margin: 0;
+}
+
+/*-------------------
+Upcoming Match page SECTION-ii styles
+---------------------*/
+
+.match-schedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.match-card {
+    background-color: rgba(255, 235, 205, 0.589);
+    padding: 20px 10px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px rgba(128, 128, 128, 0.377);
+}
+
+.match-info {
+    text-align: center;
+}
+
+.flag-vs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flag-vs img {
+    width: 50%;
 }
 
 /*footer styles*/
