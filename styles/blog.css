@@ -129,14 +129,6 @@ hr {
     margin-right: 25px;
 }
 
-#up-match {
-    background-color: rgb(255, 166, 0);
-}
-
-/* #up-match a {
-    color: aliceblue;
-} */
-
 
 .button-ii {
     border-radius: 12px;
@@ -144,6 +136,10 @@ hr {
     border: 0;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+#match-link {
+    background-color: rgb(255, 166, 0);
 }
 
 .button-ii:hover {
@@ -259,7 +255,6 @@ Upcoming Match page SECTION-ii styles
     display: flex;
     justify-content: center;
 }
-
 
 .fa-brands {
     padding: 15px;
