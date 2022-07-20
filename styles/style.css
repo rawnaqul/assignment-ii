@@ -75,12 +75,41 @@ hr {
     width: 50%;
 }
 
+.text-box p {
+    text-overflow: ellipsis;
+}
+
 .space-fix {
     font-size: 2.8em;
 }
 
+.hero-image {
+    margin-bottom: -5px;
+}
+
 .button-i:hover {
     background-color: rgb(247, 202, 119);
+    transform: scale(1.05);
+}
+
+.button-i i:hover {
+    translate: 5px;
+}
+
+.anime-ball {
+    padding-top: 30px;
+    width: 6%;
+    border: 1px solid rgba(128, 128, 128, 0);
+    transition: transform 1s ease-in .125s;
+}
+
+.anime-ball:hover {
+    transform: rotate(69deg);
+}
+
+.anime-ball i {
+    color: rgb(43, 92, 92);
+    font-size: 5em;
 }
 
 /* section ii */
@@ -278,6 +307,10 @@ M I D E A QUERY STYLES
         margin-top: 30px;
         display: flex;
     }
+
+    .anime-ball {
+        display: none;
+    }
 }
 
 
@@ -319,6 +352,10 @@ M I D E A QUERY STYLES
     .nav-links {
         flex-direction: column;
         align-items: center;
+    }
+
+    .anime-ball {
+        display: none;
     }
 
 }
