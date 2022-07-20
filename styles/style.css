@@ -153,6 +153,21 @@ hr {
     margin: 0;
 }
 
+.bonus-button {
+    display: none;
+    background-color: rgb(255, 166, 0);
+    border: 0;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bonus-button:hover {
+    background-color: rgb(247, 202, 119)
+}
+
 /*-------------------
 Upcoming Match page SECTION-ii styles
 ---------------------*/
@@ -257,6 +272,11 @@ M I D E A QUERY STYLES
     .space-fix {
         margin: 0;
         font-size: 2.8rem;
+    }
+
+    .bonus-button {
+        margin-top: 30px;
+        display: flex;
     }
 }
 
