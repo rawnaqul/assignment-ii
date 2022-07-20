@@ -249,4 +249,28 @@ M I D E A QUERY STYLES
         margin-bottom: 30px;
     }
 
+    .menu-bar {
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .side-nav {
+        background-color: aliceblue;
+    }
+
+    .match-schedule {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
