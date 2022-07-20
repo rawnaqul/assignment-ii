@@ -16,6 +16,7 @@ a {
     font-size: 1.3em;
     font-weight: 500;
     color: darkslategrey;
+    padding: 10px 15px;
 }
 
 aside {
@@ -34,7 +35,6 @@ footer {
 .button-i {
     background-color: rgb(255, 166, 0);
     border: 0;
-    padding: 10px 15px;
     border-radius: 25px;
 }
 
@@ -79,7 +79,7 @@ hr {
 /* section ii */
 
 .side-nav {
-    width: 250px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,14 +91,17 @@ hr {
 
 
 .button-ii {
-    padding: 8px 15px;
     border-radius: 12px;
     margin: 5px;
+    border: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .button-ii:hover {
     background-color: rgb(255, 166, 0);
 }
+
 
 .blog-gallery {
     display: grid;
