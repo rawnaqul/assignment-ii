@@ -43,10 +43,7 @@ footer {
     padding-bottom: 10px;
 }
 
-h1 {
-    color: aliceblue;
-    font-size: 2.8em;
-}
+
 
 h2 {
     color: aliceblue;
@@ -76,6 +73,10 @@ hr {
 .text-box {
     color: aliceblue;
     width: 50%;
+}
+
+.space-fix {
+    font-size: 2.8em;
 }
 
 .button-i:hover {
@@ -203,6 +204,15 @@ M I D E A QUERY STYLES
 
 @media screen and (max-width: 820px) and (min-width: 577px) {
 
+    .text-box {
+        padding-bottom: 30px;
+    }
+
+    .space-fix {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
     .blog-gallery {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -240,7 +250,7 @@ M I D E A QUERY STYLES
 @media screen and (max-width: 576px) {
     .container {
         flex-direction: column;
-        align-content: center;
+        align-items: center;
     }
 
     .text-box {
