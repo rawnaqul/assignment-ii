@@ -202,6 +202,16 @@ Upcoming Match page SECTION-ii styles
     margin: 10px;
 }
 
+.social-icons {
+    color: rgba(196, 245, 228, 0.459);
+    display: flex;
+    justify-content: center;
+}
+
+.fa-brands {
+    padding: 15px;
+}
+
 /*----------------
 M I D E A QUERY STYLES
 ------------------*/
