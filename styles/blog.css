@@ -90,10 +90,12 @@ hr {
 .button-i:hover {
     background-color: rgb(247, 202, 119);
     transform: scale(1.05);
+    transition: .5s ease;
 }
 
 .button-i i:hover {
     translate: 5px;
+    transition: .5s ease;
 }
 
 .anime-ball {
@@ -144,6 +146,7 @@ hr {
 
 .button-ii:hover {
     background-color: rgb(247, 202, 119);
+    transition: .25s ease;
 }
 
 
